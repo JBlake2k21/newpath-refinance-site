@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header nav {
+    background-color: #003366;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.landing {
+    text-align: center;
+    padding: 2em;
+}
+form input, form button {
+    display: block;
+    margin: 1em auto;
+    padding: 0.5em;
+    width: 80%;
+    max-width: 400px;
+}
+footer {
+    text-align: center;
+    background-color: #003366;
+    color: white;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
